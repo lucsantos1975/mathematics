@@ -77,7 +77,11 @@ void drawUnityFactorAxis() {
 }
 
 void drawFunction() {
+    fill(255);
+    stroke(0);
+    rect(0, 0, 150, 30);
+    
     textSize(14);
     fill(functionColor);
-    text("f(x) = x sin(x / 1)", 10, 20);
+    text("f(x) = x sin(1 / x)", 10, 20);
 }
